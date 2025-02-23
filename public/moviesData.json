@@ -1,0 +1,336 @@
+[
+  {
+    "categoryId": "1",
+    "categoryName": "Concerts",
+    "movies": [
+      {
+        "id": "1",
+        "title": "Mufasa",
+        "description": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
+        "heroImage": "/assets/Mufasa_banner (2).jpeg",
+        "categories": [
+          { "id": 1, "name": "Adventure", "image": "/assets/adventure.jpeg" },
+          { "id": 2, "name": "Musical", "image": "/assets/musical.jpeg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "Moana 2",
+            "description": "After receiving an unexpected call from her wayfinding ancestors, Moana must journey to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+            "image": "/assets/Moana 2.png"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Oppenheimer",
+        "description": "A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bombs that brought an end to World War II.",
+        "heroImage": "/assets/Oppenheimer_banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Thriller", "image": "/assets/thriller.jpg" },
+          {
+            "id": 2,
+            "name": "Historical Drama",
+            "image": "/assets/historical drama.jpg"
+          }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Avengers: Endgame",
+        "description": "A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bombs that brought an end to World War II.",
+        "heroImage": "/assets/Avengers End Game.jpeg",
+        "categories": [
+          { "id": 1, "name": "Sci-Fi", "image": "/assets/Scifi.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "Avengers: Infinity War",
+            "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+            "image": "/assets/Infinity war.jpeg"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Avengers: Infinity War",
+        "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+        "heroImage": "/assets/Infinity War - Banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Sci-Fi", "image": "/assets/Scifi.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "Doctor Strange",
+            "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+            "image": "/assets/Doctor strange.jpeg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "Sports",
+    "movies": [
+      {
+        "id": "5",
+        "title": "Doctor Strange",
+        "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+        "heroImage": "/assets/Doctor Strange- banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Fantasy", "image": "/assets/Fantasy.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "Eternals",
+            "description": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
+            "image": "/assets/eternals- banner.jpeg"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Eternals",
+        "description": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
+        "heroImage": "/assets/Avengers End Game.jpeg",
+        "categories": [
+          { "id": 1, "name": "Sci-Fi", "image": "/assets/Scifi.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "Avengers: Infinity War",
+            "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+            "image": "/assets/Infinity war.jpeg"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Animal",
+        "description": "The hardened son of a powerful industrialist returns home after years abroad and vows to take bloody revenge on those threatening his father's life.",
+        "heroImage": "/assets/animal.jpeg",
+        "categories": [
+          { "id": 1, "name": "Crime", "image": "/assets/crime.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "Jawan",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Jawan",
+        "description": "A prison warden recruits inmates to commit outrageous crimes that shed light on corruption and injustice - and that lead him to an unexpected reunion.",
+        "heroImage": "/assets/Jawan - banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Thriller", "image": "/assets/thriller.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "Animal",
+            "description": "The hardened son of a powerful industrialist returns home after years abroad and vows to take bloody revenge on those threatening his father's life.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Pushpa: The Rise",
+        "description": "A labourer rises through the ranks of a red sandalwood smuggling syndicate, making some powerful enemies in the process.",
+        "heroImage": "/assets/Pushpa-banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Thriller", "image": "/assets/thriller.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Movies",
+    "movies": [
+      {
+        "id": "10",
+        "title": "Pushpa 2: The Rule",
+        "description": "A smuggling kingpin faces off against a vengeful rival while manipulating politics, making big deals, and navigating tense confrontations. A public apology leads to a dramatic showdown, ending with challenge.",
+        "heroImage": "/assets/Pushpa 2- banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Thriller", "image": "/assets/thriller.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Bajirao Mastani",
+        "description": "An account of the romance between the Maratha general, Baji Rao I and Mastani, princess of Bundelkhand.",
+        "heroImage": "/assets/Bajirao mastani-banner.jpg",
+        "categories": [
+          { "id": 1, "name": "Romance", "image": "/assets/romance.jpeg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Jab We Met",
+        "description": "A depressed wealthy businessman finds his life changing after he meets a spunky and care-free young woman.",
+        "heroImage": "/assets/jab we met.jpeg",
+        "categories": [
+          { "id": 1, "name": "Romance", "image": "/assets/romance.jpeg" },
+          { "id": 2, "name": "Comedy", "image": "/assets/comedy.png" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Fukrey",
+        "description": "The paths of four dream-chasing college friends cross with an array of colourful characters, from a tough-talking Punjabi female don to a Jugaad Baaz college watchman. Mayhem ensues.",
+        "heroImage": "/assets/Fukrey- banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Romance", "image": "/assets/romance.jpeg" },
+          { "id": 2, "name": "Comedy", "image": "/assets/comedy.png" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Chennai Express",
+        "description": "A man travelling to Rameswaram via Chennai express for his late grandfather's ashes immersion finds himself in trouble after helping a don's daughter and her cousins board the train.",
+        "heroImage": "/assets/Chennai express-banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Comedy", "image": "/assets/comedy.png" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Chhichhore",
+        "description": "A tragic incident forces Anirudh, a middle-aged man, to take a trip down memory lane and reminisce his college days along with his friends, who were labelled as losers.",
+        "heroImage": "/assets/Chhichhore-banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Comedy", "image": "/assets/comedy.png" },
+          { "id": 2, "name": "Sports", "image": "/assets/sports.jpeg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Standup Comedy",
+    "movies": [
+      {
+        "id": "16",
+        "title": "KGF: Chapter 1",
+        "description": "In the 1970s, a gangster named Rocky goes undercover as a slave to assassinate the owner of a notorious gold mine known as the Kolar Gold Fields.",
+        "heroImage": "/assets/kgf1-banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Thriller", "image": "/assets/thriller.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      },
+      {
+        "id": "17",
+        "title": "KGF: Chapter 2",
+        "description": "In the blood-soaked Kolar Gold Fields, Rocky's name strikes fear into his foes, while the government sees him as a threat to law and order. Rocky must battle threats from all sides for unchallenged supremacy.",
+        "heroImage": "/assets/Kgf 2-banner.jpeg",
+        "categories": [
+          { "id": 1, "name": "Crime", "image": "/assets/crime.jpg" },
+          { "id": 2, "name": "Action", "image": "/assets/Action.jpg" }
+        ],
+        "topPicks": [
+          {
+            "id": 1,
+            "title": "The Black Hole",
+            "description": "Facing the unknown.",
+            "image": "/api/placeholder/120/120"
+          }
+        ]
+      }
+    ]
+  }
+]

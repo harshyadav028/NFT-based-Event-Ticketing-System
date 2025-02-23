@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* You can remove this media query if you don't want dark mode support */
+    --foreground-rgb: 0, 0, 0;
+    --background-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.background {
+  position: fixed; /* Ensures background stays in place */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/ui_nova_bg_image.png"); /* Make sure the image is in public/ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* Places background behind content */
+}
+
+.custom-gradient {
+  background: linear-gradient(
+    to right,
+    #34d399,
+    /* emerald-400 */ #14b8a6,
+    /* teal-500 */ #3b82f6 /* blue-500 */
+  );
+}
