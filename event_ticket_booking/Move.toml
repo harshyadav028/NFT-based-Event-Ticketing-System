@@ -1,0 +1,18 @@
+[package]
+name = "ticket_marketplace"
+version = "1.0.0"
+
+[dependencies]
+# Dependencies pulled from the Aptos Core repository.
+# These provide the modules for accounts, coin, timestamp, tokens, and BCS.
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "v1.5.0" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "aptos-node-v1.5.0" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "aptos-node-v1.5.0" }
+
+[addresses]
+# Your module is deployed under this address.
+ticket_marketplace = "0xb2d6a7343cdf074538ec752cc075cfb3907cfd810a16f7e3d088ba9e331a81b1"
+# Aptos framework modules are conventionally published at 0x1.
+AptosFramework = "0x1"
+AptosToken = "0x1"
+AptosStd = "0x1"
